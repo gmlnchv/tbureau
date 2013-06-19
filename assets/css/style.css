@@ -1,0 +1,326 @@
+/* Base */
+
+html {
+  	height: 100%;
+	background-color: #f3f2f4;
+}
+
+body {
+  	color: #222;
+}
+
+a {
+	color: #fb747e;
+	font-weight: 800;
+	text-decoration: none;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+img {
+  width: auto\9;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+hr {
+  margin: 10px 0;
+  border: 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #fff;
+}
+
+/* Buttons */
+
+.button {
+	padding: 12px 24px;
+	display: inline-block;
+	text-align: center;
+	color: white;
+	margin: 6px;
+	text-transform: uppercase;
+	background-color: #fb747e;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.button.full-width {
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Helpers */
+
+.text-left {
+	text-align: left;
+} 
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+/* Header */
+
+#header {
+	height: auto;
+	width: 100%;
+	background-color: #fb747e;
+}
+
+#header h1 {
+	float: left;
+	margin: 0;
+}
+
+.logo {
+	font-family: "stratum-1-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-weight: 200;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	color: #fff;
+	xtext-shadow: 0 1px 0 #ffffff;
+}
+
+/* Nav */
+
+#nav {
+	background-color: #fff;
+}
+
+#nav a {
+	font-family: "stratum-1-web";
+	font-size: 14px;
+	color: #222;
+	text-transform: uppercase;
+	margin-right: 12px;
+}
+
+#nav a:hover {
+	color: #fb747e;
+}
+
+#nav a.active {
+	color: #fb747e;
+}
+
+#nav i {
+	color: #fb747e;
+}
+
+/* Hero */
+
+#hero {
+	background-color: rgba(255, 255, 255, .8);
+	text-align: center;
+	padding: 1em 10% 2em;
+	border-top: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
+}
+
+#hero p {
+	font-size: 1.5em;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Social */
+
+a.twitter {
+	float: right;
+	font-size: 24px;
+	padding-left: 6px;
+	padding-right: 6px;
+	margin-top: 12px;
+	color: rgba(255,255,255,.3);
+	display: inline-block;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+a.twitter:hover {
+	color: rgba(255,255,255,.8);
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+/* Content */
+
+#content {
+}
+
+/* Features */
+
+.features {
+	padding: 30px 0;
+}
+
+.features i {
+	font-size: 70px;
+	color: #ddd;
+	text-shadow: 1px 1px 0 #fff;
+}
+
+.features article {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.features h5 {
+	margin-top: .75em;
+}
+
+
+/* Products Preview */
+
+.product-preview {
+	background-color: #fff;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border: 1px solid #ddd;
+}
+
+.image-preview {
+	height: 300px;
+	overflow: hidden;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+.title-preview {
+	padding: 0 20px;
+}
+
+/* Product */
+
+.product-main {
+	margin-bottom: 24px;
+}
+
+/* Footer */
+
+footer {
+	padding: 1em 0;
+}
+
+footer p {
+	text-align: center;
+	padding-bottom: 12px;
+	color: #bbb;
+}
+
+/* Products */
+
+.product-info {
+	background-color: rgb(170, 155, 176);
+	padding: .5em .8em;
+	color: #fff;
+	border-radius: 0.5em 0.5em 0 0;
+}
+
+.product-image {
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.goods .product-image {
+	background-image: url(http://tbureau.s3.amazonaws.com/v3/assets/img/goods_600px.png);
+	height: 610px;
+}
+
+/* Pages */
+
+.installation h5,
+.license h5 {
+	margin-top: 0;
+	color: #fb747e;
+	text-transform: uppercase;
+}
+
+.installation ul,
+.license ul {
+	margin-top: 0;
+}
+
+/* Showcase */
+
+.showcase img {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.showcase img {
+	border: 4px solid #fff;
+}
+
+.showcase header {
+	position: relative;
+}
+
+.theme-used {
+	position: absolute;
+	right: 10px;
+	top: 25px;
+	font-size: 10px;
+	font-weight: bold;
+	color: #999;
+	text-transform: uppercase;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  
+  /* Styles for mobile */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+  /* Styles for tablet */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+
+  /* Don't forget your Retina CSS! */
+
+}

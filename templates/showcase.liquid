@@ -1,0 +1,24 @@
+{% block content %}
+<div id="hero">
+	<div class="wrap">
+		<h2>See our Big Cartel Themes in action</h2>
+		<p>A little CSS can go a long way...</p>
+	</div>
+</div>
+
+<div id="showcase">
+	<div class="wrap">
+		<div class="grids">
+			{% for item in site %}
+			<article class="grid-6 showcase">
+				<header>
+					<a href="{{ item.url }}" class="pull-left"><h5>{{ item.name }}</h5></a>
+					<span class="theme-used">Theme: {{ item.theme }}</span>
+				</header>
+				<img src="{{ item.image | asset_url}}" alt="{{ item.name }}" />
+			</article>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+{% endblock %}

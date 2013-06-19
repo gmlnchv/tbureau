@@ -1,0 +1,47 @@
+{
+	"site": [
+		{
+			"name": "Antonin + Margaux",
+			"url": "http://shop.antoninplusmargaux.com/",
+			"theme": "Goods",
+			"image": "antonin-margaux.jpg"
+		},
+		
+		{
+			"name": "One Up Designs",
+			"url": "http://oneupdesigns.bigcartel.com/",
+			"theme": "Goods",
+			"image": "oneup.jpg"
+		},
+		
+		{
+			"name": "Wicca",
+			"url": "http://www.wiccacharms.com/",
+			"theme": "Goods",
+			"image": "wicca.jpg"
+		},
+		
+		{
+			"name": "Triple A",
+			"url": "http://triplea.bigcartel.com/",
+			"theme": "Goods",
+			"image": "triplea.jpg"
+		},
+		
+		{
+			"name": "Yosoy Records",
+			"url": "http://www.yosoyrecs.com/",
+			"theme": "Goods",
+			"image": "yosoy.jpg"
+		},
+
+		{
+			"name": "OleHule",
+			"url": "http://olehule.com/",
+			"theme": "Goods",
+			"image": "olehule.jpg"
+		}
+
+		
+	]	
+}

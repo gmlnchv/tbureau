@@ -1,0 +1,47 @@
+{% block content %} 
+<div class="wrap">
+	<h3>Installing Goods and Blocks</h3>
+	
+	<div class="grids installation">
+		<div class="grid-8">
+			<h5>Step 1</h5>
+			<p>Make sure you are using a plain-text editor to open the theme files. Notepad for Windows is fine, but if you are on a Mac and using TextEdit, make sure it is setup to <mark>"Ignore rich text commands in HTML files"</mark> (you will find this setting in TextEdit's <mark>Preferences</mark>, in the <mark>Open and Save</mark> tab).</p>
+			
+			<h5>Step 2</h5>
+			<p>Turn on maintenance mode in your store so your changes will be made behind-the-scenes. Click the <mark>Store</mark> link in your store's dashboard (the "gear" link), scroll down to the Options section, check <mark>Turn on maintenance mode</mark> and click <mark>Save</mark>.</p>
+			
+			<h5>Step 3</h5>
+			<p>Backup your exisiting Big Cartel theme – click the <mark>Customize Design</mark> link in your admin header, go to the <mark>Advanced</mark> panel and click on the <mark>Download My Theme</mark> link to get a zip file of all your current theme’s assets. This can be handy if you ever decide to go back to your original theme.</p>
+			
+			<p>Both "Goods" and "Blocks" are based on one of the default Big Cartel's themes called "Sexy", we will need to revert your current theme to "Sexy". Head into the <mark>Themes</mark> panel, click on the thumbnail image for the "Sexy" theme and click <mark>Save</mark>.</p>
+			
+			<h5>Step 4</h5>
+			<p>Now it's time to copy over the templates. Go back to the <mark>Advanced</mark> panel of the <mark>Customize Design</mark> section and click the <mark>CSS</mark> link. Select all of the contents of the editor and delete it. Paste the code from the <mark>01-styles.css</mark> file, click <mark>Done</mark> and then <mark>Save</mark>.</p>
+			
+			<p>Now, click the <mark>Layout</mark> link, select the <mark>Custom</mark> option, delete the existing code and paste in the code from the <mark>02-layout.html</mark> file.</p>
+			
+			<h5>Step 5</h5>
+			<p>Repeat the above step for all other pages using content from the theme's HTML files with corresponding names. Make sure the checkbox is checked for all pages, including Checkout, Maintenance and Success.</p>
+			
+			<h5>Step 6</h5>
+			<p><mark>"Goods" only:</mark> to enable the front page slider, you will need to update the code at the middle of <mark>03-home.html</mark> file (starting from line 29) with the full URLs of your slider images. Your images will need to be hosted somewhere (either on your own server or on a 3rd party file-host service, like <a href="http://tinypic.com/" target="_blank">TinyPic</a> or <a href="http://imgur.com/" target="_blank">imgur</a>.</p>
+			
+			<h5>Step 7</h5>
+			<p>Your store's logo can be uploaded via Big Cartel admin. Head into the <mark>Customize</mark> panel and use the "Header Image" tool to upload your logo. You can also upload a custom background image using the "Background Image" tool. Many of the other settings on the <mark>Customize</mark> page are supported.</p>
+			
+			<h5>Step 8</h5>
+			<p>This is it! Check that everything is working fine and if you are ready to go live, turn off Maintenance mode and launch your store.</p>
+		</div>
+		
+	<div class="grid-4">
+		<h5>About image sizes</h5>
+		<p><mark>"Goods"</mark> has been designed to work with product images of any size. Just make sure they are all of the <mark>same</mark> size to avoid gaps in the layout.</p>
+		
+		<p><mark>"Blocks"</mark> will work best with <mark>square</mark> images of any size. Make them at least 300x300px before uploading to Big Cartel.</p>
+		
+		<h5>Stuck with installation?</h5>
+		<p>Not to worry. We are happy hold your hand through the installation process &ndash; e-mail our <a href="mailto:orders@tbureau.co">Support Department</a> with any questions.</p>
+	</div>
+</div>	
+</div>
+{% endblock %}
